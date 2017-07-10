@@ -12,7 +12,14 @@
   ],
   "require": {
   },
+  "scripts": {
+    "test": [
+      "phpunit"
+    ]
+  },
   "require-dev": {
+    "phpunit/phpunit": "~5.7.21",
+    "satooshi/php-coveralls": "^1.0"
   },
   "autoload": {
     "psr-4": {
