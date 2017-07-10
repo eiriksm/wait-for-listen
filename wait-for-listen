@@ -1,0 +1,21 @@
+#!/usr/bin/env php
+<?php
+
+require "src/ListenWaiter.php";
+
+// Parse arguments.
+if (count($argv) < 2) {
+  throw new Exception('Invalid invocation. Please use this program as wait-for-listen <port> [host] [timeout]. Only port is required.');
+}
+$port = (int) $argv[1];
+$host = '127.0.0.1';
+if (!empty($argv[2])) {
+  $host = $argv[2];
+}
+$timeout = 10;
+if (!empty($argv[3])) {
+  $timeout = (int) $argv[3];
+}
+
+$waiter = new \eiriksm\WaitForListen\ListenWaiter($port, $host);
+$waiter->waitFor($timeout);

@@ -8,12 +8,11 @@
     { "name": "Eirik S. Morland", "email": "eirik@morland.no" }
   ],
   "bin": [
-    "waitforlisten"
+    "wait-for-listen"
   ],
   "require": {
   },
   "require-dev": {
-    "phpunit/phpunit": "4.*"
   },
   "autoload": {
     "psr-4": {

@@ -46,7 +46,7 @@ class ListenWaiter {
     $connected = FALSE;
     while (!$connected) {
       if (time() > $start + $seconds) {
-        throw new \Exception("No connection in $seconds seconds");
+        throw new \Exception("No connection to $this->host on port $this->port in $seconds seconds");
       }
       $conn = @stream_socket_client("tcp://{$this->host}:{$this->port}", $code, $err, $seconds);
       if ($err == '') {
