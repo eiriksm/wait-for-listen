@@ -1,0 +1,23 @@
+{
+  "name": "eiriksm/wait-for-listen",
+  "description": "Waits until a port is listening.",
+  "license": "GPL-2.0+",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "authors": [
+    { "name": "Eirik S. Morland", "email": "eirik@morland.no" }
+  ],
+  "bin": [
+    "waitforlisten"
+  ],
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "eiriksm\\WaitForListen": "src"
+    }
+  }
+}
