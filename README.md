@@ -1,5 +1,8 @@
 # wait-for-listen
 
+
+[![Packagist](https://img.shields.io/packagist/v/eiriksm/wait-for-listen.svg?maxAge=3600)](https://packagist.org/packages/eiriksm/wait-for-listen)
+[![Packagist](https://img.shields.io/packagist/dt/eiriksm/wait-for-listen.svg?maxAge=3600)](https://packagist.org/packages/eiriksm/wait-for-listen)
 [![Coverage Status](https://coveralls.io/repos/github/eiriksm/wait-for-listen/badge.svg?branch=master)](https://coveralls.io/github/eiriksm/wait-for-listen?branch=master)
 [![Build Status](https://travis-ci.org/eiriksm/wait-for-listen.svg?branch=master)](https://travis-ci.org/eiriksm/wait-for-listen)
 
